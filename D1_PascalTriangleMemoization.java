@@ -8,7 +8,7 @@ public class PascalTriangleMemoization {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the number of rows: ");
+        System.out.print("Enter the number of rows: "); // enter required no.of rows (by user)
         int rows = scanner.nextInt();
 
         printPascalTriangle(rows);
@@ -31,7 +31,7 @@ public class PascalTriangleMemoization {
             System.out.println();
         }
     }
-
+    // method to get the values for pascals triangle
     public static int pascalValue(int row, int col, Map<String, Integer> memo) {
         String key = row + "," + col;
         if (memo.containsKey(key)) {
