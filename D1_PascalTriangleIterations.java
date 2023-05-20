@@ -6,7 +6,7 @@ class PascalTriangleIterations {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the number of rows: ");
+        System.out.print("Enter the number of rows: "); // enter required no.of rows
         int n = scanner.nextInt();
 
         printPascal(n);
