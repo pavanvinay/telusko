@@ -1,4 +1,4 @@
-# telusko-day1
+# Telusko-10DayChallenge
 This contains Telusko youtube channels 10 Days challenge Assignment codes and explanations 
 # Day 1 Content
 Recursion is an essential concept in programming that allows us to solve complex problems by breaking them down into smaller, more manageable sub problems.
