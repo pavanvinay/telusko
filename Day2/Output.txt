@@ -1,1 +1,93 @@
-
+#Console level interaction of user for product management project
+============================================================
+1. Display All Products
+2. Display Specific Product Details
+3. Search Product with Text
+4. Find Products in Specific Place
+5. Display Products with expired Warranty
+6. Exit
+=============================================================
+1
+Details of ProductsProduct{name='Type C', type='Cable', place='Black Drawer', warranty=2024}
+Product{name='Mac Studio', type='Computer', place='White Table', warranty=2025}
+Product{name='Focusrite Mixer', type='Audio System', place='White Table', warranty=2025}
+Product{name='Asus Vivobook', type='Laptop', place='Brown Drawer', warranty=2021}
+Product{name='Asus Rog', type='Laptop', place='Black Table', warranty=2021}
+Product{name='Macbook pro', type='Laptop', place='Brown Drawer', warranty=2022}
+Product{name='Wacom Pad', type='Writing Pad', place='Black Drawer', warranty=2020}
+Product{name='Apple Keyboard', type='Keyboard', place='White Table', warranty=2022}
+Product{name='Logitech Keyboard', type='Keyboard', place='Black Table', warranty=2024}
+Product{name='Hdmi cable', type='Cable', place='Black Drawer', warranty=2024}
+Product{name='Java Black Book', type='Cable', place='Shelf', warranty=2024}
+Product{name='Logi Mouse', type='Mouse', place='Black Table', warranty=2022}
+Product{name='Apple Mouse', type='Mouse', place='White Table', warranty=2022}
+Product{name='Lenovo Mouse', type='Mouse', place='Black Drawer', warranty=2022}
+Product{name='BlackBeast', type='Computer', place='White Table', warranty=2020}
+============================================================
+1. Display All Products
+2. Display Specific Product Details
+3. Search Product with Text
+4. Find Products in Specific Place
+5. Display Products with expired Warranty
+6. Exit
+=============================================================
+2
+Enter the Name of the Product : Asus Rog
+Product{name='Asus Rog', type='Laptop', place='Black Table', warranty=2021}
+============================================================
+1. Display All Products
+2. Display Specific Product Details
+3. Search Product with Text
+4. Find Products in Specific Place
+5. Display Products with expired Warranty
+6. Exit
+=============================================================
+3
+Enter the text to find in product details: white
+Product{name='Mac Studio', type='Computer', place='White Table', warranty=2025}
+Product{name='Focusrite Mixer', type='Audio System', place='White Table', warranty=2025}
+Product{name='Apple Keyboard', type='Keyboard', place='White Table', warranty=2022}
+Product{name='Apple Mouse', type='Mouse', place='White Table', warranty=2022}
+Product{name='BlackBeast', type='Computer', place='White Table', warranty=2020}
+============================================================
+1. Display All Products
+2. Display Specific Product Details
+3. Search Product with Text
+4. Find Products in Specific Place
+5. Display Products with expired Warranty
+6. Exit
+=============================================================
+4
+Enter the Place to find products : black table
+Product{name='Asus Rog', type='Laptop', place='Black Table', warranty=2021}
+Product{name='Logitech Keyboard', type='Keyboard', place='Black Table', warranty=2024}
+Product{name='Logi Mouse', type='Mouse', place='Black Table', warranty=2022}
+============================================================
+1. Display All Products
+2. Display Specific Product Details
+3. Search Product with Text
+4. Find Products in Specific Place
+5. Display Products with expired Warranty
+6. Exit
+=============================================================
+5
+Enter year to check products with expired warranty : 2023
+Product{name='Asus Vivobook', type='Laptop', place='Brown Drawer', warranty=2021}
+Product{name='Asus Rog', type='Laptop', place='Black Table', warranty=2021}
+Product{name='Macbook pro', type='Laptop', place='Brown Drawer', warranty=2022}
+Product{name='Wacom Pad', type='Writing Pad', place='Black Drawer', warranty=2020}
+Product{name='Apple Keyboard', type='Keyboard', place='White Table', warranty=2022}
+Product{name='Logi Mouse', type='Mouse', place='Black Table', warranty=2022}
+Product{name='Apple Mouse', type='Mouse', place='White Table', warranty=2022}
+Product{name='Lenovo Mouse', type='Mouse', place='Black Drawer', warranty=2022}
+Product{name='BlackBeast', type='Computer', place='White Table', warranty=2020}
+============================================================
+1. Display All Products
+2. Display Specific Product Details
+3. Search Product with Text
+4. Find Products in Specific Place
+5. Display Products with expired Warranty
+6. Exit
+=============================================================
+6
+Thanks for using!!
